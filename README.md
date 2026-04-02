@@ -16,7 +16,7 @@ This project follows a modern data engineering pipeline architecture:
 - Delta Lake stores the data with versioning
 - ScyllaDB serves as the final NoSQL database
 
-![Data Pipeline Architecture](images/architecture.png)
+![Data Pipeline Architecture](Images/architecture.png)
 
 > Airflow orchestrates Spark jobs to process Delta Lake data and load aggregated results into ScyllaDB.
 

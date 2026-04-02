@@ -20,24 +20,6 @@ This project follows a modern data engineering pipeline architecture:
 
 > Airflow orchestrates Spark jobs to process Delta Lake data and load aggregated results into ScyllaDB.
 
-Data Generation (Python + Faker)
-
-↓
-
-Apache Airflow (Orchestration)
-
-↓
-
-Apache Spark (Processing)
-
-↓
-
-Delta Lake (Data Lake Storage)
-
-↓
-
-ScyllaDB (NoSQL Database)
-
 ---
 
 ## ⚙️ Tech Stack

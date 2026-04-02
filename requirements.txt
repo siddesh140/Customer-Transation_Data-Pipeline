@@ -1,0 +1,6 @@
+pyspark
+delta-spark
+faker
+cassandra-driver
+apache-airflow
+psycopg2-binary
